@@ -1,21 +1,21 @@
 ---
-title: Jekyll Serif - Jekyll Small Business Theme
+title: Automaly Consulting Company
 layout: default
 bodyClass: page-home
 ---
 
 <div class="intro pb-4">
   <div class="container">
-    <h1>Serif - Jekyll Small Business Theme.</h1>
-    <p>Our business helps hundreds of customers with their accounting and taxation needs each year.</p>
+    <h1>Automaly Consulting Company</h1>
+    <p>Our business helps hundreds of customers with their Azure Clould and Office 365 services each year</p>
   </div>
 </div>
 
 <div class="container pt-2">
   <div class="call">
     <div class="call-box-top">
-      <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
-      <div class="call-email"><strong>Email: </strong>
+      <div class="call-phone"><strong>Phone: 0966 59 77 79</strong> {{ site.data.contact.phone }} </div>
+      <div class="call-email"><strong>Email: max@automaly.com</strong>
         <a href="mailto:{{ site.data.contact.email }}">
           {{ site.data.contact.email }}
         </a>
@@ -58,7 +58,8 @@ bodyClass: page-home
     {% for feature in site.data.features %}
     <div class="col-12 col-md-6 col-lg-4 mb-2">
       <div class="feature">
-        {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image }}" /></div> {% endif %}
+        {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo"
+            src="{{ feature.image }}" /></div> {% endif %}
         <h2 class="feature-title">{{ feature.title }}</h2>
         <div class="feature-content">{{ feature.description }}</div>
       </div>
