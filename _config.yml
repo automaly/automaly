@@ -1,4 +1,4 @@
-baseurl: automaly.com
+baseurl: /
 exclude: ['README.md']
 permalink: pretty
 title: 'Jekyll Serif'
