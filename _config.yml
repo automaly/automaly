@@ -1,7 +1,7 @@
-baseurl: http://automaly.github.io
+baseurl: /
 exclude: ['README.md']
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Automaly Consulting'
 
 collections:
   services:
